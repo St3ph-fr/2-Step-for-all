@@ -1,16 +1,16 @@
-# 2-Step-for-all
-This repository is made for Google G Suite Admin that want to turn ON 2-Step for all their domain. We provide some advice and a script to stream line the 2-Step enforcement of users.
+# 2-Step for All
+
+2-Step for All is a project to help Google G Suite Admin to enfoce 2-Step on their domain. You can use the Google Sheets Template to setup the enforcement process in few minutes or customize it for your needs.
 
 ## Why this project
-Google highly recomment to activate the 2-Step on Google account and I really believe it can help company to avoid most of Phishing / Hijacking attacks.
-For that as a Google Admin you can enfore 2 steps directly on accounts, hard way or you can set a period of time user have to enforce the 2-Step [ref](https://support.google.com/a/answer/9176657).
+Google highly recommend to activate the 2-Step on Google account and I really believe it can help company to avoid most of Phishing / Hijacking attacks.
+For that as a Google Admin you can enfore 2 steps directly on accounts, hard way, or you can set a period of time user have to enforce the 2-Step [ref](https://support.google.com/a/answer/9176657).
 
-By experience users do not really care about the Google warning, too generic and not company oriented. It is better to have a direct communiation, it can respect communication policy of your company and personalize the request to imply most actively the user.
+By experience users do not really care about the Google warning, too generic and not company oriented. It is better to have a direct communication, it can respect communication policy of your company and personalize the request to imply the users most actively.
 
-2-Step for all is a Google Sheets with an Apps Script bound to easily add emails of users to enforce 2-Step and send 2 emails to invite user to activate 2 steps.
+2-Step for All is a Google Sheets with an Apps Script bound to easily send emails of users to enforce 2-Step in a 1 week (standard setup) period.
 
 ## What will do the script
-You can make a copy of the Google Sheets and setup your own version. We provide the script and you an customize it.
 Feature included :
 - Enforcement is managed by using a Google Groups
 - Send emails to user in order to ease 2-Step setup
@@ -23,6 +23,10 @@ Feature included :
 Script must run on an Admin account with at least this rights :
 - List users and view profile details
 - Manage Groups
+
+### 2-Step G Suite Admin Setup
+Admin must setup a Google Groups ine the admin console to enforce the 2 steps. Go there : [2-Step admin page](https://admin.google.com/AdminHome#ServiceSettings/service=securitysetting)
+Select top level domain (1), activate 2-Step (2) and setup a group (3)
 
 ### Trigger
 Setup a trigger by using the option "Setup trigger" int he custom menu "2-Step for All" or setup the trigger manually in the editor. 
