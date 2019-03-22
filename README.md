@@ -26,13 +26,17 @@ Script must run on an Admin account with at least this rights :
 
 ### 2-Step G Suite Admin Setup
 Admin must setup a Google Groups ine the admin console to enforce the 2 steps. Go there : [2-Step admin page](https://admin.google.com/AdminHome#ServiceSettings/service=securitysetting)
+
 Select top level domain (1), activate 2-Step (2) and setup a group (3)
+<img src="https://github.com/St3ph-fr/2-Step-for-all/blob/master/img/2019-03-22_16h40_19.png"  width="70%" />
 
 ### Trigger
 Setup a trigger by using the option "Setup trigger" int he custom menu "2-Step for All" or setup the trigger manually in the editor. 
-Trigger recommendation, daily trigge that run in the morning.
+Trigger recommendation, daily trigger that run in the morning.
 
-##Install
+<img src="https://github.com/St3ph-fr/2-Step-for-all/blob/master/img/2019-03-22_16h23_44.png?raw=true"  width="50%"/>
+
+## Install
 1. Make a copy of the sheets by clicking on this link : [2-Step for All](http://bit.ly/2TRjPOF)
 2. Go to Apps Script editor "Tools >> Script editor" and setup the parameters.
 3. Go back to the Sheets and go to menu "2-Step for All >> Setup Trigger"
